@@ -6,6 +6,9 @@ Tested up to: 2.7.1
 Stable tag: trunk
 Donate link: http://dentedreality.com.au
 
+Provides a widget (or template tag) to show a small sparkline chart with your the number of posts per day.
+
+== Description ==
 Sparkplug gives you a neat little [sparkline](http://en.wikipedia.org/wiki/Sparklines) chart that shows you how many posts you've had on your blog per day. On any "listing" page other than the homepage it will switch to showing you bars for posts in the current "section" and a line for all posts. This allows you to see how active the current section is in comparison to the blog as a whole.
 
 Currently tested on the homepage, tags and category pages.
@@ -21,7 +24,7 @@ Sparkplug can be used either as a widget, directly within a theme file.
 
 NOTE: You may only have ONE instance of Sparkplug appear on a page at a time. It will automatically detect if there has already been one and subsequent requests for it will be ignored.
 
-=== Widget ===
+= Widget =
 1. Go to Appearance > Widgets and switch to the sidebar you want Sparkplug to appear in
 2. Click the "Add" link on the "Sparkplug" widget.
 3. Drag and Drop the widget to the position in your sidebar you want it to appear. It goes nicely at the top :)
@@ -30,16 +33,16 @@ NOTE: You may only have ONE instance of Sparkplug appear on a page at a time. It
 6. Click "Done" and then save your changes.
 7. Refresh your blog and bask in the glory that is Sparkplug!
 
-=== Template Tag ==
+= Template Tag =
 Sparkplug comes with a simple template tag that you can use in any template file in your theme. It gives you a little more control over the output as well, in case you want to do something a little different.
 
 Use this to output the default Sparkplug:
 
-<?php sparkplug() ?>
+`<?php sparkplug() ?>`
 
 There are a number of options you can use to configure the output, which are passed as an associative array like this:
 
-<?php sparkplug( array( 'barColor' => '#ff0000' ) ) ?>
+`<?php sparkplug( array( 'barColor' => '#ff0000' ) ) ?>`
 
 The full list of available options is:
 
