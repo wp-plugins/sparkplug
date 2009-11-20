@@ -4,7 +4,7 @@ Plugin Name: Sparkplug
 Plugin URI: http://dentedreality.com.au/projects/wp-sparkplug/
 Description: Gives you a widget (and a template tag/function) to display a <a href="http://en.wikipedia.org/wiki/Sparklines">sparkline</a> showing the number of posts per day for the current view. Works on home, tags, categories and authors pages Uses <a href="http://omnipotent.net/jquery.sparkline/">jQuery Sparklines</a>.
 Author: Beau Lebens
-Version: 1.0
+Version: 1.1
 Author URI: http://dentedreality.com.au/
 
 @todo add actions to clear cached data on post publishing (selective, based on cat/tag/author)
