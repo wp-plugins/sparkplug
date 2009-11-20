@@ -360,7 +360,7 @@ function widget_sparkplug_control() {
 /**
  * A simplified "template tag" to use in templates
 **/
-function sparkplug( $args ) {
+function sparkplug( $args = array() ) {
 	widget_sparkplug( $args );
 }
 

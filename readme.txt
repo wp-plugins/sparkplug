@@ -2,7 +2,7 @@
 Contributors: beaulebens
 Tags: sparkline, frequency, posts, widget, jquery
 Requires at least: 2.7
-Tested up to: 2.7.1
+Tested up to: 2.8.6
 Stable tag: trunk
 Donate link: http://dentedreality.com.au
 
@@ -14,7 +14,6 @@ Sparkplug gives you a neat little [sparkline](http://en.wikipedia.org/wiki/Spark
 Currently tested on the homepage, tags and category pages.
 
 Comes packaged as a widget, or you can use the template tag to insert it directly into a theme file.
-
 
 == Installation ==
 Upload to your plugins directory then go to Plugins and activate it. You might also want to see the section on Usage to see anything happen.
@@ -57,3 +56,12 @@ The full list of available options is:
  - fillColor = hex/bool -- a hex value to color in underneath the line, or false to disable [recommened]
  - lineColor = hex -- what color should the line be
  - defaultPixelsPerValue = int -- how many pixels between values
+
+== Changelog ==
+
+= 1.1 =
+ - Updated version of jQuery Sparkline plugin packaged. Compatible with latest jQuery
+ - Fixed defaults in sparkplug() so you can call it without a parameter
+
+= 1.0 =
+ - Initial release
