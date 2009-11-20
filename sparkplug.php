@@ -361,6 +361,10 @@ function widget_sparkplug_control() {
  * A simplified "template tag" to use in templates
 **/
 function sparkplug( $args = array() ) {
+	if ( !isset( $args['before'] ) )
+		$args['before'] = '';
+	if ( !isset( $args['after'] ) )
+		$args['after'] = '';
 	widget_sparkplug( $args );
 }
 
